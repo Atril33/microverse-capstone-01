@@ -1,3 +1,11 @@
+const container = document.querySelector('.section-3 .container');
+const body = document.querySelector('body');
+const hamburger = document.querySelector('.header .hamburger');
+const mobileNav = document.querySelector('.header .mobile-nav');
+const closeBtn = document.querySelector('.header .closeBtn');
+const mobileNavLinks = document.querySelector('.header .ul');
+
+// Speakers Array
 const speakers = [
   {
     index: 1,
@@ -43,8 +51,7 @@ const speakers = [
   },
 ];
 
-const container = document.querySelector('.section-3 .container');
-
+// Dynamically Generating Spekaers HTML
 speakers.forEach((speaker) => {
   const innerContainer = document.createElement('div');
   innerContainer.classList.add('inner-container');
@@ -84,12 +91,7 @@ speakers.forEach((speaker) => {
   container.appendChild(innerContainer);
 });
 
-const body = document.querySelector('body');
-const hamburger = document.querySelector('.header .hamburger');
-const mobileNav = document.querySelector('.header .mobile-nav');
-const closeBtn = document.querySelector('.header .closeBtn');
-const mobileNavLinks = document.querySelector('.header .ul');
-
+// Mobile Menu Popup
 hamburger.addEventListener('click', () => {
   mobileNav.style.display = 'flex';
   body.style.overflow = 'hidden';
