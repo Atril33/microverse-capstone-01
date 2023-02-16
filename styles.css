@@ -369,6 +369,10 @@ body {
     font-size: 15px;
   }
 
+  .header .desktop-nav .white-row .a:hover {
+    color: #ec5242;
+  }
+
   .header .desktop-nav .white-row .a-cc {
     border: solid 4px red;
     padding: 10px;
