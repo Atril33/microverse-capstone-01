@@ -530,7 +530,7 @@ body {
     padding: 20px;
   }
 
-  .section-3 .more {
+  .section-3 .more-container {
     display: none;
   }
 }
