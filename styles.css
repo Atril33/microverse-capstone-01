@@ -255,6 +255,27 @@ body {
   font-style: italic;
 }
 
+.section-3 .more-container {
+  height: 50px;
+  width: 100%;
+  border: 1px solid rgb(202, 200, 200);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.section-3 .arrow {
+  font-weight: 900;
+  font-size: 15px;
+  color: #ec5242;
+}
+
+.section-3 .more-container:hover {
+  color: #ec5242;
+}
+
 /* Partners Section */
 
 .section-4 {
@@ -507,5 +528,9 @@ body {
     align-items: center;
     gap: 30px;
     padding: 20px;
+  }
+
+  .section-3 .more {
+    display: none;
   }
 }
