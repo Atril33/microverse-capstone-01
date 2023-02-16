@@ -125,7 +125,7 @@ body {
   padding: 50px 5vw;
 }
 
-.h2-red-line {
+.section-2 .h2-red-line {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -187,6 +187,13 @@ body {
   padding: 50px 5vw;
 }
 
+.section-3 .h2-red-line {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
 .section-3 .red-line {
   height: 1px;
   width: 50px;
@@ -246,6 +253,13 @@ body {
   padding: 50px 5vw;
   background: #272a31;
   color: white;
+}
+
+.section-4 .h2-red-line {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
 }
 
 .section-4 .red-line {
