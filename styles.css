@@ -14,7 +14,7 @@ body {
 /* Header and Section 1 */
 
 .header-section1-container {
-  background-image: url('/images/home-bg-mobile.png');
+  background-image: url('images/home-bg-mobile.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -128,7 +128,7 @@ body {
   gap: 30px;
   background: #272a31;
   padding: 50px 5vw;
-  background-image: url('/images/pattern_bg.png');
+  background-image: url('images/pattern_bg.png');
   background-position: center;
   background-repeat: repeat;
 }
@@ -406,7 +406,7 @@ body {
     gap: 10px;
     margin: 0;
     padding: 150px 30vw 150px 15vw;
-    background-image: url('/images/home-bg-desktop.png');
+    background-image: url('images/home-bg-desktop.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

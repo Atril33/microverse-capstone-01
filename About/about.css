@@ -14,7 +14,7 @@ body {
 /* Header and Section 1 */
 
 .header-section1-container {
-  background-image: url('/images/home-bg-mobile.png');
+  background-image: url('../images/home-bg-mobile.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -314,7 +314,7 @@ body {
     margin: 0;
     padding: 150px 25vw 150px 25vw;
     text-align: center;
-    background-image: url('/images/home-bg-desktop.png');
+    background-image: url('../images/home-bg-desktop.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
