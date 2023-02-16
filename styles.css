@@ -58,6 +58,13 @@ body {
   color: rgb(111, 110, 110);
 }
 
+.header .mobile-nav .closeBtn {
+  color: grey;
+  position: relative;
+  right: 20px;
+  cursor: pointer;
+}
+
 .header .mobile-nav .a:hover,
 .header .mobile-nav .closeBtn:hover {
   color: #ec5242;
@@ -72,13 +79,6 @@ body {
   padding: 10px;
   color: #ec5242;
   white-space: nowrap;
-}
-
-.header .mobile-nav .closeBtn {
-  color: grey;
-  position: relative;
-  right: 20px;
-  cursor: pointer;
 }
 
 .header .desktop-nav {
@@ -317,10 +317,7 @@ body {
 /* Desktop */
 @media only screen and (min-width: 768px) {
   .header-section1-container {
-    background-image: 0;
-    background-size: 0;
-    background-position: 0;
-    background-repeat: 0;
+    background-image: none;
     padding: 0;
   }
 
