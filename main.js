@@ -127,15 +127,3 @@ seeMoreBtn.addEventListener('click', () => {
     });
   }
 });
-
-// manipulate css with screen resize
-// window.addEventListener('resize', () => {
-//   const childrenToDisplay = document.querySelectorAll(
-//     '.section-3 .inner-container:nth-child(n + 3)',
-//   );
-//   if (window.innerWidth > 768) {
-//     childrenToDisplay.forEach((child) => {
-//       child.style.display = 'flex';
-//     });
-//   }
-// });

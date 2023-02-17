@@ -267,12 +267,6 @@ body {
   cursor: pointer;
 }
 
-/* .section-3 .arrow {
-  font-weight: 900;
-  font-size: 15px;
-  color: #ec5242;
-} */
-
 .section-3 .more-container:hover {
   color: #ec5242;
 }
