@@ -347,8 +347,14 @@ body {
     color: #ec5242;
     font-size: 50px;
     line-height: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 0;
     max-width: 460px;
+  }
+
+  .section-1 .red-line {
+    height: 1px;
+    width: 25px;
+    background: #ec5242;
   }
 
   .section-1 .p {
