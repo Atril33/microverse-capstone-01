@@ -162,13 +162,17 @@ body {
 }
 
 .section-2 .icon {
-  height: 60px;
-  width: 60px;
+  height: 30px;
+  width: 30px;
+}
+
+.section-2 .p {
+  font-size: 12px;
 }
 
 .section-2 .h3 {
   color: #ec5242;
-  font-size: x-large;
+  font-size: 15px;
 }
 
 .section-2 .red-box {
@@ -218,7 +222,6 @@ body {
 .section-3 .inner-container {
   display: flex;
   flex-direction: row;
-  align-items: center;
   gap: 30px;
 }
 
@@ -228,14 +231,14 @@ body {
 
 .section-3 .chess-box {
   position: absolute;
-  height: 100px;
-  width: 100px;
+  height: 50px;
+  width: 50px;
   z-index: -1;
 }
 
 .section-3 .image {
-  height: 150px;
-  width: 150px;
+  height: 100px;
+  width: 100px;
   transform: translate(10px, 10px);
 }
 
@@ -254,6 +257,7 @@ body {
 .section-3 .headline {
   color: #ec5242;
   font-style: italic;
+  font-size: 12px;
 }
 
 .section-3 .more-container {
@@ -265,6 +269,10 @@ body {
   align-items: center;
   gap: 10px;
   cursor: pointer;
+}
+
+.section-3 .p {
+  font-size: 10px;
 }
 
 .section-3 .more-container:hover {
@@ -319,15 +327,21 @@ body {
 }
 
 .footer .logo {
-  height: 40px;
+  height: 30px;
   width: 160px;
 }
 
-.footer .text {
+.footer .text-inner-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 5px;
+  white-space: nowrap;
+  font-size: 13px;
+}
+
+.footer .licence {
+  display: none;
 }
 
 /* Desktop */
@@ -465,7 +479,6 @@ body {
     display: flex;
     flex-direction: row;
     gap: 10px;
-    flex-wrap: wrap;
   }
 
   .section-2 .inner-container {
@@ -473,10 +486,10 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 10px;
-    height: 200px;
-    width: 170px;
     padding: 20px;
     background-color: rgba(211, 211, 211, 0.2);
+    text-align: center;
+    width: 12vw;
   }
 
   .section-2 .icon {
@@ -520,7 +533,6 @@ body {
   .section-3 .inner-container {
     display: flex;
     flex-direction: row;
-    align-items: center;
     gap: 30px;
     padding: 20px;
   }
@@ -531,5 +543,40 @@ body {
 
   .section-3 .inner-container:nth-child(n + 3) {
     display: flex;
+  }
+
+  /* Footer */
+
+  .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+    padding: 50px 15vw;
+  }
+
+  .footer .logo {
+    height: 40px;
+    width: 210px;
+  }
+
+  .footer .text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 550px;
+    font-size: 13px;
+  }
+
+  .footer .text-inner-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap: 10px;
+  }
+
+  .footer .licence {
+    display: block;
   }
 }

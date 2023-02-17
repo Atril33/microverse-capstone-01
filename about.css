@@ -238,21 +238,26 @@ body {
   gap: 30px;
   padding: 50px 5vw;
   background: #272a31;
-  color: rgb(198, 198, 198);
-  font-size: 11px;
+  color: #9b9b9b;
 }
 
 .footer .logo {
-  height: 40px;
+  height: 30px;
   width: 160px;
   filter: brightness(0) invert(1);
 }
 
-.footer .text {
+.footer .text-inner-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 5px;
+  white-space: nowrap;
+  font-size: 13px;
+}
+
+.footer .licence {
+  display: none;
 }
 
 /* Desktop */
@@ -411,5 +416,40 @@ body {
 
   .section-2 .event .p {
     font-size: 20px;
+  }
+
+  /* Footer */
+
+  .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+    padding: 50px 15vw;
+  }
+
+  .footer .logo {
+    height: 40px;
+    width: 210px;
+  }
+
+  .footer .text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 550px;
+    font-size: 13px;
+  }
+
+  .footer .text-inner-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap: 10px;
+  }
+
+  .footer .licence {
+    display: block;
   }
 }
