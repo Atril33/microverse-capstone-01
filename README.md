@@ -122,7 +122,7 @@ Give a ⭐️ if you like this project!
 
 > Give credit to everyone who inspired your codebase.
 
-I would like to thank the Microverse curriculum.
+I would like to thank the Microverse curriculum, and [Cindy Shin in Behance](https://www.behance.net/adagio07) for providing the template of the design.
 
 <!-- FAQ (optional) -->
 
