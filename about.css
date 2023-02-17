@@ -14,7 +14,7 @@ body {
 /* Header and Section 1 */
 
 .header-section1-container {
-  background-image: url('../images/home-bg-mobile.png');
+  background-image: url('images/home-bg-mobile.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -206,7 +206,7 @@ body {
       rgba(232, 117, 107, 0.687),
       rgba(233, 74, 74, 0.664)
     ),
-    url('../images/events/event-1.jpg');
+    url('images/events/event-1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -223,7 +223,7 @@ body {
       rgba(232, 117, 107, 0.687),
       rgba(233, 74, 74, 0.664)
     ),
-    url('../images/events/event-2.jpg');
+    url('images/events/event-2.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -328,7 +328,7 @@ body {
     margin: 0;
     padding: 150px 25vw 150px 25vw;
     text-align: center;
-    background-image: url('../images/home-bg-desktop.png');
+    background-image: url('images/home-bg-desktop.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
