@@ -4,7 +4,7 @@ const hamburger = document.querySelector('.header .hamburger');
 const mobileNav = document.querySelector('.header .mobile-nav');
 const closeBtn = document.querySelector('.header .closeBtn');
 const mobileNavLinks = document.querySelector('.header .ul');
-// const seeMoreBtn = document.querySelector('.section-3 .more-container');
+const seeMoreBtn = document.querySelector('.section-3 .more-container');
 
 // Speakers Array
 const speakers = [
@@ -107,3 +107,35 @@ mobileNavLinks.addEventListener('click', () => {
   mobileNav.style.display = 'none';
   body.style.overflow = 'visible';
 });
+
+// see more button manipulation
+seeMoreBtn.addEventListener('click', () => {
+  // set the css to be manipulated
+  const childrenToDisplay = document.querySelectorAll(
+    '.section-3 .inner-container:nth-child(n + 3)',
+  );
+
+  if (seeMoreBtn.innerHTML === 'MORE ▾') {
+    seeMoreBtn.innerHTML = 'LESS ▴';
+    childrenToDisplay.forEach((child) => {
+      child.style.display = 'flex';
+    });
+  } else if (seeMoreBtn.innerHTML === 'LESS ▴') {
+    seeMoreBtn.innerHTML = 'MORE ▾';
+    childrenToDisplay.forEach((child) => {
+      child.style.display = 'none';
+    });
+  }
+});
+
+// manipulate css with screen resize
+// window.addEventListener('resize', () => {
+//   const childrenToDisplay = document.querySelectorAll(
+//     '.section-3 .inner-container:nth-child(n + 3)',
+//   );
+//   if (window.innerWidth > 768) {
+//     childrenToDisplay.forEach((child) => {
+//       child.style.display = 'flex';
+//     });
+//   }
+// });

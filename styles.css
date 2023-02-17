@@ -222,6 +222,10 @@ body {
   gap: 30px;
 }
 
+.section-3 .inner-container:nth-child(n + 3) {
+  display: none;
+}
+
 .section-3 .chess-box {
   position: absolute;
   height: 100px;
@@ -263,11 +267,11 @@ body {
   cursor: pointer;
 }
 
-.section-3 .arrow {
+/* .section-3 .arrow {
   font-weight: 900;
   font-size: 15px;
   color: #ec5242;
-}
+} */
 
 .section-3 .more-container:hover {
   color: #ec5242;
@@ -529,5 +533,9 @@ body {
 
   .section-3 .more-container {
     display: none;
+  }
+
+  .section-3 .inner-container:nth-child(n + 3) {
+    display: flex;
   }
 }
