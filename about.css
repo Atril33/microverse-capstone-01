@@ -331,7 +331,7 @@ body {
     align-items: center;
     gap: 20px;
     margin: 0;
-    padding: 150px 25vw 150px 25vw;
+    padding: 150px 20vw 150px 20vw;
     text-align: center;
     background-image: url('images/home-bg-desktop.png');
     background-size: cover;
@@ -345,9 +345,10 @@ body {
 
   .section-1 .h1 {
     color: #ec5242;
-    font-size: 60px;
-    line-height: 60px;
+    font-size: 50px;
+    line-height: 50px;
     margin-bottom: 20px;
+    max-width: 460px;
   }
 
   .section-1 .p {
@@ -357,6 +358,7 @@ body {
     line-height: 25px;
     font-size: 12px;
     color: #9b9b9b;
+    max-width: 715px;
   }
 
   .section-1 .mobile-p {
