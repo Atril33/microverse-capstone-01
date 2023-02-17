@@ -126,11 +126,8 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 30px;
-  background: #272a31;
   padding: 50px 5vw;
-  background-image: url('images/pattern_bg.png');
-  background-position: center;
-  background-repeat: repeat;
+  background: #272a31 url('images/pattern_bg.png') repeat center;
 }
 
 .section-2 .h2-red-line {

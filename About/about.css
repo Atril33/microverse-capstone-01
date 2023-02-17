@@ -171,51 +171,61 @@ body {
   background: #d3d3d3;
 }
 
-.section-2 .image-container {
+.section-2 .event-container {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-.section-2 .image {
+.section-2 .event {
   height: 150px;
   width: 300px;
 }
 
-/* Partners Section */
-
-.section-4 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 30px;
-  padding: 50px 5vw;
-  background: #272a31;
+.section-2 .event .h3 {
+  font-size: 30px;
+  font-weight: 900;
   color: white;
 }
 
-.section-4 .h2-red-line {
+.section-2 .event .p {
+  font-size: 16px;
+  font-weight: 900;
+  color: rgb(218, 216, 216);
+}
+
+.section-2 .event-1 {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 10px;
-}
-
-.section-4 .red-line {
-  height: 1px;
-  width: 50px;
-  background: #ec5242;
-}
-
-.section-4 .image-container {
-  display: flex;
   justify-content: center;
-  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+  background:
+    linear-gradient(
+      0deg,
+      rgba(232, 117, 107, 0.687),
+      rgba(233, 74, 74, 0.664)
+    ),
+    url('../images/events/event-1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.section-4 .image {
-  height: 50px;
-  width: 150px;
+.section-2 .event-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background:
+    linear-gradient(
+      0deg,
+      rgba(232, 117, 107, 0.687),
+      rgba(233, 74, 74, 0.664)
+    ),
+    url('../images/events/event-2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* Footer Section */
@@ -227,11 +237,15 @@ body {
   justify-content: center;
   gap: 30px;
   padding: 50px 5vw;
+  background: #272a31;
+  color: rgb(198, 198, 198);
+  font-size: 11px;
 }
 
 .footer .logo {
   height: 40px;
   width: 160px;
+  filter: brightness(0) invert(1);
 }
 
 .footer .text {
@@ -384,14 +398,18 @@ body {
     line-height: 20px;
   }
 
-  .section-2 .image-container {
+  .section-2 .event-container {
     display: flex;
     flex-direction: row;
     gap: 20px;
   }
 
-  .section-2 .image-container .image {
-    height: 180px;
-    width: 340px;
+  .section-2 .event-container .event {
+    height: 300px;
+    width: 35vw;
+  }
+
+  .section-2 .event .p {
+    font-size: 20px;
   }
 }
